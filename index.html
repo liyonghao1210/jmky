@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>金玛康养旅游后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
+</head>
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <!-- 头部 -->
+        <div class="layui-header"></div>
+        <!-- 左侧导航 -->
+        <div class="layui-side layui-bg-black leftNav"></div>
+        <!-- 内容区 -->
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+            <div class="layui-container search">
+                <!-- 查询条件 -->
+                <div class="layui-row">
+                    <div class="layui-col-md12">
+                        <form class="layui-form" action="" methods="">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">姓名：</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" value="" name="" required lay-verify="required" placeholder="请输入姓名" autocomplete="off" class="layui-input">
+                                </div>
+                                <label class="layui-form-label">账号：</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" value="" name="" required lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
+                                </div>
+                                <div>
+                                    <input type="button" value="查询" class="layui-btn myBtnSearch">
+                                    <input type="reset" value="重置" class="layui-btn myBtnReset">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="addTable">
+                <div class="layui-row">
+                    <!-- 添加按钮 -->
+                    <div class="layui-row addTableR">
+                        <div class="layui-col-md12">
+                            <a href="#"class="layui-btn myBtnAdd">添加</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 表格 -->
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="150">
+                        <col width="200">
+                        <col>
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>姓名</th>
+                            <th>账号</th>
+                            <th>密码</th>
+                            <th>手机号</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>admin</td>
+                            <td>123456</td>
+                            <th>18888888888</th>
+                            <th>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">查看</a>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">修改</a>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">删除</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>张三</td>
+                            <td>admin</td>
+                            <td>123456</td>
+                            <th>18888888888</th>
+                            <th>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">查看</a>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">修改</a>
+                                <a href="#" class="layui-btn layui-btn-sm myLinkA">删除</a>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-7">
+                    <a href="javascript:;" class="layui-laypage-prev" data-page="0">上一页</a>
+                    <a href="javascript:;" data-page="1" class="pageActive">1</a>
+                    <a href="javascript:;" data-page="2">2</a>
+                    <a href="javascript:;" data-page="3">3</a>
+                    <a href="javascript:;" data-page="4">4</a>
+                    <a href="javascript:;" data-page="5">5</a>
+                    <a href="javascript:;" class="layui-laypage-next" data-page="2">下一页</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- 底部版权 -->
+        <div class="layui-footer"></div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+</html>

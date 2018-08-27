@@ -1,0 +1,88 @@
+/*登录页面*/
+.login_bj {
+    background: url(../images/bg_login.png) fixed no-repeat top center;
+    background-size:cover;
+    width: 100%;
+}
+.login_wrap{
+    width: 561px;
+    height: 527px;
+    /* background: #000; */
+    position:absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.logoTitle{
+    width: 100%;
+    height: 78px;
+    background: url(../images/login_logo.png) no-repeat top center;
+    margin-bottom: 30px;
+}
+.login_input{
+    padding: 35px 92px 84px 92px;
+    background-color: rgba(255, 255, 255, 0.66);
+    box-shadow: 0px 4px 6px 0px rgba(123, 124, 120, 0.31);
+}
+.login_input h3{
+    font-size: 20px;
+    color: #90c31f;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.ipt_k{
+    width: 334px;
+    height: 45px;
+    padding-left: 33px;
+    padding-right: 10px;
+    border: solid 1px #dcdbdb;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 20px;
+    background: url(../images/tel.png) no-repeat 10px center;
+}
+.ipt_psd{
+    background: url(../images/psd.png) no-repeat 10px center;    
+}
+.ipt_k:focus{
+    border: solid 1px #90c31f;
+}
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #838382;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #838382;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #838382;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #838382;
+}
+.subBtn{
+    width: 379px;
+    height: 45px;
+    color: #ffffff;
+    margin-top: 40px;
+    background:#90c31f;
+    font-size: 20px;
+    letter-spacing: 4px;
+    box-shadow: 0px 4px 6px 0px rgba(113, 160, 9, 0.24);
+}
+.copy {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    text-align: center;
+}

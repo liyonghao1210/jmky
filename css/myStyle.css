@@ -1,0 +1,70 @@
+.layui-layout-admin .layui-header {
+    background-color: #e5e5e5;
+}
+.layui-nav-tree .layui-nav-item a{
+    text-align: center;
+    font-size: 17px;
+}
+.layui-nav-item span{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.layui-nav .closeBtn a {
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #80b707;
+    border: solid 1px #90c31f;
+    padding: 0 10px 0 30px;
+    background: url(../images/close.png) no-repeat 5px center;
+    background-size: 28% 60%;
+    margin-left: 20px;
+}
+.layui-nav .closeBtn a:hover{
+    color: #80b707;    
+}
+.navActive {
+    border-left: 2px solid #90c31f;
+    background: #4E5465;
+}
+
+.layui-layout-admin .layui-footer {
+    text-align: center;
+    background-color: #ffffff;
+}
+.layui-body{
+    background: #f0f0f0;
+}
+.search{
+    width: 100%;
+    padding: 20px 0;
+    background: #ffffff;
+}
+.myBtnSearch{
+    background: #3d9be4 url(../images/search.png) no-repeat 5px center;
+    padding-left: 30px;
+}
+.myBtnReset{
+    background: #3d9be4 url(../images/rest.png) no-repeat 5px center;
+    padding-left: 30px;
+}
+.addTable{
+    padding: 20px 20px;
+}
+.myBtnAdd{
+    background: #90c31f;
+    text-align: right;
+}
+.myLinkA{
+    color: #4e4e4e;
+    background: #a3d3f8;
+}
+.addTableR{
+    text-align: right;
+}
+.layui-laypage .pageActive {
+    background: #a3d3f8;
+    color: #ffffff;
+}
